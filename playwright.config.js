@@ -27,13 +27,13 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-      workers: 1,
+      workers: 4,
     },
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
-      workers: 1,
+      workers: 4,
     },
 
     // {
